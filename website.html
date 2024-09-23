@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Food Website</title>
+   <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.naans-section {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+ h2 {
+    color: #FF6F61; /* Dark Brown color for the title */
+    font-size: 3em; /* Adjust size as needed */
+    margin: -20px 0 20px 50px; /* Move up by 20px */
+}
+
+header {
+    background-color: #D4A373; /* Primary Color: Warm Beige */
+    color: #FFEDD5; /* Secondary Color: Light Cream */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px; /* Adjust letter spacing for a stylish look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #F1FAEE; /* Change to your secondary color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add hover effect */
+}
+.naans-section {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.naans-section h2 {
+    color: #3E2723; /* Dark Brown color for the title */
+    font-size: 2em; /* Adjust size as needed */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.hero {
+    display: flex;
+    justify-content: center; /* Center the boxes */
+    padding: 20px;
+}
+
+.image-box {
+    width: 220px; /* Adjust width as needed */
+    padding: 50px;
+    margin: 10px 20px 20px 300px; /* Increased margin for more space between images */
+    background-color: #D4A373; /* Primary Color */
+    border: 2px solid #3E2723; /* Dark Brown Border */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+.placeholder {
+    width: 100%;
+    height: auto;
+}
+
+.placeholder img {
+    width: 100%; /* Make image responsive */
+    height: auto;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFEDD5; /* Light Cream background for info */
+    width: 100%; /* Full width to match image */
+    border-top: 2px solid #3E2723; /* Border above the info */
+}
+
+.info h3 {
+    margin: 5px 0;
+    color: #3E2723; /* Dark Brown for dish name */
+}
+
+.info p {
+    margin: 0;
+    color: #3E2723; /* Dark Brown for price */
+}
+
+footer {
+    background-color: #F1FAEE;
+    color: #333;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-links, .footer-contact, .footer-social {
+    text-align: left;
+}
+
+.footer-links ul, .footer-social {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a, .footer-social a {
+    text-decoration: none;
+    color: #E63946;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #D9D9D9;
+}
+   </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 style="font-family: 'Pacifico', cursive; color: #E63946;">Delicious Bites</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#categories">Categories</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <section class="naan-section">
+        <br>
+        <h2>Naan</h2> <!-- Section title -->
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/07/naan-recipe-2-500x500.jpg" alt="Butter Naan">
+                </div>
+                <div class="info">
+                    <h3>Butter Naan</h3>
+                    <p>Price: ₹15</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYUN32Cu8WqzztWtANN5atZz_bnsb67SlDnA&s" alt="Garlic Naan">
+                </div>
+                <div class="info">
+                    <h3>Garlic Naan</h3>
+                    <p>Price: ₹17</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVA5zSpRwZ4lzcDCjwIuowEnOi0mO9deh_1w&s" alt="Cheese Naan">
+                </div>
+                <div class="info">
+                    <h3>Cheese Naan</h3>
+                    <p>Price: ₹20</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/07/Plain-Naan-Bread-2-3.jpg" alt="Plain Naan">
+                </div>
+                <div class="info">
+                    <h3>Plain Naan</h3>
+                    <p>Price: ₹12</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="naan-section"></section>
+        <br>
+        <h2>Paratha</h2> <!-- Section title -->
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/06/Aloo-Paratha-2-3.jpg" alt="Butter Naan">
+                </div>
+                <div class="info">
+                    <h3>Aloo Paratha</h3>
+                    <p>Price: ₹25</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/06/Gobi-Paratha-2-3-500x500.jpg" alt="Garlic Naan">
+                </div>
+                <div class="info">
+                    <h3>Gobi Paratha</h3>
+                    <p>Price: ₹30</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://holycowvegan.net/wp-content/uploads/2022/07/mix-veg-paratha-photo.jpg" alt="Cheese Naan">
+                </div>
+                <div class="info">
+                    <h3>Vegetable Paratha</h3>
+                    <p>Price: ₹40</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvJmaP_kq_xe0uPHsKn6vzOngAGDzrNJ1JA&s" alt="Plain Naan">
+                </div>
+                <div class="info">
+                    <h3>Onion Parantha</h3>
+                    <p>Price: ₹30</p>
+                </div>
+            </div>
+            
+        </div>   
+    </section>
+    
+
+    <br>
+    <section class="naan-section"></section>
+        <br>
+        <h2>Dal</h2> <!-- Section title -->
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3-500x500.jpg" alt="Butter Naan">
+                </div>
+                <div class="info">
+                    <h3>Dal Makhni</h3>
+                    <p>Price: ₹250</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://holycowvegan.net/wp-content/uploads/2022/04/dal-tadka.jpg" alt="Garlic Naan">
+                </div>
+                <div class="info">
+                    <h3>Dal Tadka</h3>
+                    <p>Price: ₹280</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://cinnamonsnail.com/wp-content/uploads/2023/07/Chana-dal-feature-2.jpg" alt="Cheese Naan">
+                </div>
+                <div class="info">
+                    <h3>Chana dal</h3>
+                    <p>Price: ₹200</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/payal-jain420170719074708994_thumb.jpeg" alt="Plain Naan">
+                </div>
+                <div class="info">
+                    <h3>Dhaba Style Dal</h3>
+                    <p>Price: ₹150</p>
+                </div>
+            </div>
+            
+        </div>   
+    </section>
+    
+
+    
+    <br>
+    <section class="naan-section"></section>
+        <br>
+        <h2>Paneer</h2> <!-- Section title -->
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://images.news18.com/ibnkhabar/uploads/2021/09/Shahi-Paneer.jpg" alt="Butter Naan">
+                </div>
+                <div class="info">
+                    <h3>Shahi Paneer</h3>
+                    <p>Price: ₹400</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://spicecravings.com/wp-content/uploads/2018/07/10-Minute-Kadai-Paneer-1.jpg" alt="Garlic Naan">
+                </div>
+                <div class="info">
+                    <h3>Kadai Paneer</h3>
+                    <p>Price: ₹350</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://mygoodfoodworld.com/wp-content/uploads/2023/07/palak-paneer-dhaba-style-main.jpg" alt="Cheese Naan">
+                </div>
+                <div class="info">
+                    <h3>Palak Paneer</h3>
+                    <p>Price: ₹300</p>
+                </div>
+            </div>
+    
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQRQMKHs5qBBmBwVN6e7UTPlt3PpK2c6T8XA&s" alt="Plain Naan">
+                </div>
+                <div class="info">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>Price: ₹380</p>
+                </div>
+            </div>
+            
+        </div>   
+    </section>
+    
+    <br>
+    <section class="naan-section"></section>
+        <br>
+        <h2>Sweet Dishes</h2> <!-- Section title -->
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://happietrio.com/wp-content/uploads/2017/09/Rasmalai-500x500.jpg" alt="Butter Naan">
+                </div>
+                <div class="info">
+                    <h3>Rasmalai</h3>
+                    <p>Price: ₹150</p>
+                </div>
+            </div>
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://recipes.net/wp-content/uploads/2023/05/gulab-jamun-recipe_9fb159dc2674f395436a64666227c988-768x768.jpeg" alt="Garlic Naan">
+                </div>
+                <div class="info">
+                    <h3>Gulab Jamun</h3>
+                    <p>Price: ₹40(1 Piece)</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://i0.wp.com/marudhuskitchen.com/wp-content/uploads/2018/10/bengali-rasgulla-recipe.jpg?fit=600%2C800&ssl=1" alt="Cheese Naan">
+                </div>
+                <div class="info">
+                    <h3>Rasgulla</h3>
+                    <p>Price: ₹35(1 Piece)</p>
+                </div>
+            </div>
+            <div class="image-box">
+                <div class="placeholder">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/88/c0/37/nukkad-jalebi-with-rabdi.jpg" alt="Plain Naan">
+                </div>
+                <div class="info">
+                    <h3>Jalebi With Rabadi</h3>
+                    <p>Price: ₹90</p>
+                </div>
+            </div>    
+        </div>   
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2 style="font-family: 'Pacifico', cursive; color: #E63946;">Delicious Bites</h2>
+                <p>Your destination for delightful culinary experiences!</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@deliciousbites.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Flavor Street, Food City, FC 12345</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Delicious Bites. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
